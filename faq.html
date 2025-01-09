@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virreyes Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegador -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+           <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="Logo Hotel"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul id="menu-container" class="navbar-nav">
+                    <!-- Opciones del menú cargadas dinámicamente -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Contenido Principal -->
+    <div class="container mt-5">
+        <!-- Sección de Políticas e Información -->
+        <section class="info-section">
+            <h2>Políticas e Información</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Políticas de Devolución</h4>
+                    <p>Las reservas pueden ser canceladas sin penalización hasta 48 horas antes del check-in. Para cancelaciones tardías, se aplicará una penalización del 50% del costo total.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Métodos de Pago</h4>
+                    <p>Aceptamos pagos en efectivo, tarjetas de crédito y débito (Visa, MasterCard, American Express) y transferencias bancarias.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4>Contacto con Soporte</h4>
+                    <p>Para soporte, contáctanos al <a href="https://wa.me/60464703">+591 60464703</a> o envíanos un correo a <a href="mailto:soporte@mihotel.com">soporte@virreyeshotel.com</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section class="faq-section mt-5">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="faq1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            ¿Qué incluye la tarifa?
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Nuestra tarifa incluye desayuno buffet, acceso al gimnasio, piscina y Wi-Fi gratuito en todas las instalaciones.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="faq2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            ¿Se puede pagar con tarjeta?
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, aceptamos tarjetas de crédito y débito de Visa, MasterCard y American Express.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="faq3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            ¿El hotel cuenta con servicio de lavandería?
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, ofrecemos servicio de lavandería y tintorería con un costo adicional.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="faq4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            ¿Cuentan con transfer?
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, ofrecemos servicio de transfer desde y hacia el aeropuerto. Por favor, consulta nuestras tarifas.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="faq5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            ¿El hotel cuenta con garaje?
+                        </button>
+                    </h2>
+                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, contamos con estacionamiento privado gratuito para nuestros huéspedes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header" id="faq6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            ¿Trabajan con instituciones?
+                        </button>
+                    </h2>
+                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="faq6" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, ofrecemos tarifas especiales para instituciones y grupos corporativos. Contáctanos para más información.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><a href="contacto.html">Formulario de Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Galería</h5>
+                    <ul>
+                        <li><a href="galeria.html">Ver Galería</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Preguntas Frecuentes</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Redes Sociales</h5>
+                    <p>
+                        <a href="https://www.facebook.com/search/top/?q=virreyes%20hotel">Facebook</a><br>
+                        <a href="#">Instagram</a><br>
+                        <a href="#">Twitter</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch('menu.xml')
+                .then(response => response.text())
+                .then(data => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(data, "application/xml");
+                    const opciones = xmlDoc.getElementsByTagName("opcion");
+
+                    const menuContainer = document.getElementById("menu-container");
+                    for (let i = 0; i < opciones.length; i++) {
+                        const texto = opciones[i].getElementsByTagName("texto")[0].textContent;
+                        const url = opciones[i].getElementsByTagName("url")[0].textContent;
+
+                        const li = document.createElement("li");
+                        li.classList.add("nav-item");
+
+                        const a = document.createElement("a");
+                        a.classList.add("nav-link");
+                        a.href = url;
+                        a.textContent = texto;
+
+                        li.appendChild(a);
+                        menuContainer.appendChild(li);
+                    }
+                })
+                .catch(error => console.error("Error al cargar el menú:", error));
+        });
+    </script>
+</body>
+</html>

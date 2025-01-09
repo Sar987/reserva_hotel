@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <es>
+        <inicio>Inicio</inicio>
+        <reservas>Reservas</reservas>
+        <paquetes>Paquetes y Promociones</paquetes>
+        <servicios>Servicios del Hotel</servicios>
+        <galeria>Galería</galeria>
+        <contactos>Contacto</contactos>
+        <tituloReservas>Formulario de Reservas</tituloReservas>
+        <nombreApellido>Nombre y Apellido</nombreApellido>
+        <correo>Correo Electrónico</correo>
+        <telefono>Número de Contacto</telefono>
+        <entrada>Fecha de Entrada</entrada>
+        <salida>Fecha de Salida</salida>
+        <habitacion>Tipo de Habitación</habitacion>
+        <guardar>Guardar</guardar>
+    </es>
+    <en>
+        <inicio>Home</inicio>
+        <reservas>Bookings</reservas>
+        <paquetes>Packages and Promotions</paquetes>
+        <servicios>Hotel Services</servicios>
+        <galeria>Gallery</galeria>
+        <contactos>Contact</contactos>
+        <tituloReservas>Booking Form</tituloReservas>
+        <nombreApellido>Full Name</nombreApellido>
+        <correo>Email</correo>
+        <telefono>Contact Number</telefono>
+        <entrada>Check-In Date</entrada>
+        <salida>Check-Out Date</salida>
+        <habitacion>Room Type</habitacion>
+        <guardar>Save</guardar>
+    </en>
+</translations>
+

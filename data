@@ -1,0 +1,20 @@
+{
+  "reservas": [
+    {
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "telefono": "+123456789",
+      "fechaEntrada": "2024-12-25",
+      "fechaSalida": "2024-12-30",
+      "tipoHabitacion": "Matrimonial"
+    },
+    {
+      "nombre": "María López",
+      "email": "maria.lopez@example.com",
+      "telefono": "+987654321",
+      "fechaEntrada": "2024-12-20",
+      "fechaSalida": "2024-12-25",
+      "tipoHabitacion": "Doble"
+    }
+  ]
+}

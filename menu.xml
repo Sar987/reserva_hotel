@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <opcion>
+        <texto>Inicio</texto>
+        <url>index.html</url>
+    </opcion>
+    <opcion>
+        <texto>Reservas</texto>
+        <url>reservas.html</url>
+    </opcion>
+    <opcion>
+        <texto>Paquetes</texto>
+        <url>paquetes.html</url>
+    </opcion>
+    <opcion>
+        <texto>Servicios del Hotel</texto>
+        <url>servicios.html</url>
+    </opcion>
+    <opcion>
+        <texto>Galería</texto>
+        <url>galeria.html</url>
+    </opcion>
+</menu>
